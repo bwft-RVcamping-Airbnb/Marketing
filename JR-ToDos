@@ -1,0 +1,22 @@
+By EOD 2/3 Mon.
+
+J:
+- About (Outdoorsy)
+- footer (yadda yadda like Outdoorsy, Contact stuff)
+- separate CSS (/about.css) & LESS (/about.less) files referenced for respective page(s)
+
+R:
+- home (Outdoorsy.com)
+- nav (Logo | Home | About         Login | Register)
+- separate CSS (/index.css) & LESS (index.less) files referenced for respective page(s)
+- Logo (cursive-ish font for Logo)
+
+By EOD 2/4 Tue.
+
+- J & R to merge stuff
+- polishing designs to match each other
+- start/finish merging CSS & LESS (/master.css, /master.less, etc.)
+
+By EOD 2/5 Wed.
+
+- TBD
