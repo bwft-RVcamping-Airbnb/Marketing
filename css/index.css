@@ -11,6 +11,9 @@
 }
 .mission-cont {
   border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 .img-cont {
   border: 1px solid black;
@@ -24,6 +27,12 @@
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+.img {
+  border: 1px solid blue;
+  display: flex;
+  margin: 1%;
+  justify-content: baseline;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
