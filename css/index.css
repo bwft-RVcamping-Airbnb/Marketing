@@ -64,16 +64,27 @@ table {
 .nav-logo {
   display: flex;
   width: 20%;
+  justify-content: center;
 }
 
 .nav-left-div {
   display: flex;
   width: 40%;
+  justify-content: flex-start;
+}
+
+.nav-left-div nav-left a {
+	margin: 0 20px;
 }
 
 .nav-right-div {
   display: flex;
   width: 40%;
+  justify-content: flex-end;
+}
+
+.nav-right-div nav-right a {
+	margin: 0 20px;
 }
 
 .header-section {
@@ -85,11 +96,27 @@ table {
 .header-left-div {
 	display: flex;
 	flex-direction: column;
-	width: 40%;
 	justify-content: center;
 	align-items: center;
 }
 
-.header-right-div img {
-	width: 300px;
+.RV-carousel {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.RV-carousel img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-between;
+	width: 20%;
+}
+
+.rapport-graphics {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-evenly;
 }
