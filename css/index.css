@@ -171,6 +171,7 @@ p {
   background-color: #EEF9BF;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .navbar {
   width: 800px;
@@ -214,6 +215,13 @@ p {
     font-size: 1.4rem;
   }
 }
+.footer-navbar {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
 .home .intro {
   display: flex;
   justify-content: center;
@@ -251,11 +259,12 @@ p {
 .home .head-img-cont {
   display: flex;
   justify-content: flex-end;
+  width: 60%;
 }
 .home .head-container img {
   display: flex;
   border-radius: 5px;
-  width: 80%;
+  width: 100%;
 }
 @media ( max-width: 500px ) {
   .home .head-container img {
