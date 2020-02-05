@@ -15,6 +15,7 @@
   }
   .about-container {
     .center(center, center);
+    }
     @media @phone {
       margin-top: 2%;
     }
@@ -31,16 +32,14 @@
 
     img {
       width: 28%;
-      margin: 20px 2.5%;
+      margin: 2% 2.5%;
       border-radius: 20px;
       height: 100%;
       @media @phone {
         .fill();
-        .center(baseline, center);
-        
+        .center(baseline, center); 
       }
     }
-  }
   .team {
     margin-top: 5%;
     border-top: 1px solid @nav-font;
@@ -64,12 +63,6 @@
       @media @phone {
         .fill();
         padding-top: 2%;
-        .btn {
-          .fill();
-          height: 70px;
-          font-size: 1.8rem;
-          border-radius: 3px;
-        }
       }
     }
 
