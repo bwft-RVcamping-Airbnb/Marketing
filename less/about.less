@@ -1,15 +1,13 @@
-// Home Content
+// About Content
 
-.home {
+.about {
 
   .intro {
     .center(center, center);
     flex-direction: column;
     h2 {
       padding: 15px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      .center(center, center);
     }
 
   }
@@ -28,11 +26,14 @@
     border-radius: 5px;
     width: 100%;
   }
+  .about-main {
+    margin: 0 2%;
+  }
 
 
     img {
       width: 28%;
-      margin: 2% 2.5%;
+      margin: 2% 2%;
       border-radius: 20px;
       height: 100%;
       @media @phone {
@@ -71,11 +72,13 @@
       margin-left: 4%;
       @media @phone {
         .fill();
+        .center(center, center);
         margin: 0;
       }
       
-      img {
+      #team {
         .fill();
+        .center(center, center);
         height: auto;
         border-radius: 10px;
       }

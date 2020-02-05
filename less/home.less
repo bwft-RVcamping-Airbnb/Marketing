@@ -46,14 +46,16 @@
 
   .rv-images {
     .center(center, center);
-    flex-wrap: wrap;
     .fill();
     @media @phone {
-      display: flex;
-      align-items: center;
+      .center(center, center);
       flex-direction: column;
-      margin: 1%;
-      width: 90%;
+      width: 100%;
+      padding: 1%;
+      .maui {
+        .center(center, center);
+        margin: 0;
+      }
       .onward {
           display: none;
         }/*closes onward img*/
@@ -69,7 +71,7 @@
       height: 100%;
       @media @phone {
         .fill();
-        .center(baseline, center);
+        .center(center, center);
       }
     }
   }
@@ -116,6 +118,8 @@
       width: 46%;
       margin-left: 4%;
       @media @phone {
+        width: 100%;
+        .center(center, center);
         .fill();
         margin: 0;
       }

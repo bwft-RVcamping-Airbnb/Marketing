@@ -174,9 +174,9 @@ p {
 }
 .navbar {
   width: 800px;
-  flex-direction: column;
+  flex-direction: row;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   /*closes navbar media query*/
 }
@@ -184,6 +184,12 @@ p {
   padding: 1% 0;
 }
 @media ( max-width: 500px ) {
+  .navbar {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .navbar h1 {
     margin: 2% 0;
   }
@@ -202,7 +208,7 @@ p {
 }
 @media ( max-width: 500px ) {
   .nav-a {
-    width: 80%;
+    width: 100%;
   }
   .nav-a a {
     font-size: 1.4rem;
@@ -260,19 +266,25 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
   width: 100%;
   /*closes media query for rv img div*/
 }
 @media ( max-width: 500px ) {
   .home .rv-images {
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 1%;
-    width: 90%;
+    width: 100%;
+    padding: 1%;
     /*closes onward img*/
     /*closes coast img*/
+  }
+  .home .rv-images .maui {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
   }
   .home .rv-images .onward {
     display: none;
@@ -291,7 +303,7 @@ p {
   .home .rv-images img {
     width: 100%;
     display: flex;
-    justify-content: baseline;
+    justify-content: center;
     align-items: center;
   }
 }
@@ -339,6 +351,9 @@ p {
 }
 @media ( max-width: 500px ) {
   .home .walk .walk-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     margin: 0;
   }
@@ -348,25 +363,25 @@ p {
   height: auto;
   border-radius: 10px;
 }
-.home .intro {
+.about .intro {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.home .intro h2 {
+.about .intro h2 {
   padding: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.home .about-container {
+.about .about-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 @media ( max-width: 500px ) {
-  .home {
+  .about {
     margin-top: 2%;
   }
 }
@@ -380,9 +395,12 @@ p {
   border-radius: 5px;
   width: 100%;
 }
+.about-main {
+  margin: 0 2%;
+}
 img {
   width: 28%;
-  margin: 2% 2.5%;
+  margin: 2% 2%;
   border-radius: 20px;
   height: 100%;
 }
@@ -430,11 +448,17 @@ img {
 @media ( max-width: 500px ) {
   .team .team-img {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0;
   }
 }
-.team .team-img img {
+.team .team-img #team {
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: auto;
   border-radius: 10px;
 }

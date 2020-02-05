@@ -7,8 +7,8 @@
 }
 .navbar {
     width: 800px;
-    flex-direction: column;
-    .center(center, center);
+    flex-direction: row;
+    .center(space-between, center);
     h1 {
         padding: 1% 0;
     }
@@ -16,6 +16,8 @@
         h1 {
             margin: 2% 0;
         }
+        flex-direction: column;
+        .center(center, center);
     }/*closes navbar media query*/
 }
 .nav-a {
@@ -29,7 +31,7 @@
         padding: 2% 0;
     }
     @media @phone {
-        width: 80%;
+        width: 100%;
         a {
             font-size: 1.4rem;
         }
