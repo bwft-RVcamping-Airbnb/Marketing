@@ -229,10 +229,28 @@ p {
   flex-direction: column;
 }
 .home .intro h2 {
-  padding: 15px;
+  padding: 1%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .tagline {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.home #homeP {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+@media ( max-width: 800px ) {
+  .home #homeP {
+    display: none;
+  }
 }
 .home .head-container {
   display: flex;
