@@ -6,12 +6,25 @@
     .center(center, center);
     flex-direction: column;
     h2 {
-      padding: 15px;
+      padding: 1%;
       display: flex;
       justify-content: center;
       align-items: center;
     }
 
+  }
+
+  .tagline {
+    width: 60%;
+    .center(center, center);
+    flex-direction: column;
+  }
+  #homeP {
+    .center(center, center);
+    width: 80%;
+    @media @tablet {
+      display: none;
+    }
   }
   .head-container {
     .center(space-evenly, center);
@@ -24,6 +37,7 @@
             padding-bottom: 2%;
         }
     }
+
     input {
         border: 1px solid @main-font-color;
     }
