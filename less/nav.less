@@ -1,0 +1,43 @@
+// Navigation code here
+.nav-container {
+    .fill();
+    background-color: #EEF9BF;
+    .center(center, center);
+}
+.navbar {
+    width: 800px;
+    flex-direction: row;
+    .center(space-between, center);
+    h1 {
+        padding: 1% 0;
+    }
+    @media @phone {
+        h1 {
+            margin: 2% 0;
+        }
+        flex-direction: column;
+        .center(center, center);
+    }/*closes navbar media query*/
+}
+.nav-a {
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+    a {
+        text-decoration: none;
+        color: black;
+        font-size: 1.3rem;
+        padding: 2% 0;
+    }
+    @media @phone {
+        width: 100%;
+        a {
+            font-size: 1.4rem;
+        }
+    }/*closes nav media query*/
+}
+.footer-navbar {
+    width: 90%;
+    .center(space-between, center);
+    flex-direction: column;
+}
